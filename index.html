@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>BARTIN</h1>
+            <span class="material-symbols-outlined side" onclick="showMenu()">
+                menu
+            </span>
+            <nav class="nav-bar" >
+
+                <ul id="navLink">
+                    <li><a>ANASAYFA</a></li>
+                    <li><a>TARİHÇE</a></li>
+                    <li><a>HAKKIMIZDA </a></li>
+                </ul>
+            </nav>
+            <div class="historia">
+                <!-- <h2>BARTIN İLİMİZ HAKKINDA.</h2> -->
+                <div class="yazi-1">
+                    <p>Bartın, Türkiye'nin Karadeniz Bölgesi'nde Batı Karadeniz Bölümündeki bir ildir. 1991 yılında
+                        Zonguldak ilinden ayrılarak Türkiye'nin 74. ili olmuştur. Doğusunda Kastamonu, güneyinde
+                        Karabük, batısında Zonguldak illeri, kuzeyinde Karadeniz bulunur. Orman bakımından zengin olan
+                        ilin büyük bir kısmı Küre Dağları Millî Parkı sınırları içerisinde yer almaktadır. Bartın Çayı
+                        Türkiye'de üzerinde taşımacılık yapılan tek akarsudur.</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="gezi">
+            <div class="metin">
+                <h3>Güzelcehisar Lav Sütunları</h3>
+                <div class=" kutu kutu-1">
+                    <img src="güzelcehisar.jfif" alt="resim">
+                    <p>Güzelcehisar, Bartın'ın merkez ilçesine 17 km uzaklıkta, hala bozulmamış güzel köylerden biridir.
+                        Güzelcehisar, kendisini Bartın'ın Amasra ve İnkumu gibi diğer turistik bölgelerinden kendini
+                        izole ediyor. Güzelcehisar'a özel araç, minibüs veya bisiklet ile ulaşabilirsiniz.</p>
+                </div>
+            </div>
+            <div class="metin">
+                <h3>Küre Dağları</h3>
+                <div class="kutu kutu-2"><img src="küredağları.jfif" alt="resim">
+                    <p>2000 yılında Milli park olarak ilan edilen Küre Dağları Milli Parkı, Kastamonu ve Bartın illeri
+                        sınırları içinde bulunmaktadır. Bartın merkeze 16 km, Kastamonu merkeze ise 80 km mesafedeki
+                        Park, 37.754 hektarlık bir alana sahiptir. Küre Dağları Milli Parkı, uluslararası öneme sahip
+                        kanyonlar, boğazlar, mağaralar, şelaleler ve düdenler gibi ilginç karstik oluşumların en güzel
+                        örneklerini sergiler.</p>
+                </div>
+            </div>
+            <div class="metin">
+                <h3>Amasra</h3>
+                <div class="kutu kutu-3"> <img src="amasra.jfif" alt="amasra">
+                    <p>Amasra, Karadeniz kıyı dağlarının dik yamaçlarının eteğinde 5 küçük adanın dördünün zamanla
+                        birleşmesiyle meydana gelmiş küçük bir düzlükte ve bu düzlüğün devamı olan tepeler ve
+                        eteklerinde kurulmuştur. Kuzeyinde Karadeniz. Güney ve güneybatısında Bartın İli, doğusunda
+                        Kurucaşile ile çevrili bir yarımada üzerindedir. Karadeniz kıyılarına özgü her mevsimi yağışlı
+                        orta kuşak iklimi hüküm sürmektedir.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p> Coded with<span class="material-symbols-outlined" style="color:rgb(53, 127, 100)">
+            spa
+            </span> by Tuğba</p>
+
+    </footer>
+    <script>
+        function showMenu() {
+            document.getElementById("navLink").style.display = "block";
+        }
+
+    </script>
+</body>
+
+</html>
